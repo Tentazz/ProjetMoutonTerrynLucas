@@ -1,0 +1,2112 @@
+fileFormatVersion: 2
+guid: f39a20e4220d81a44972b2c302fcda06
+timeCreated: 1456612359
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: joint1
+    100004: joint10
+    100006: joint11
+    100008: joint11 1
+    100010: joint12
+    100012: joint12 1
+    100014: joint13
+    100016: joint13 1
+    100018: joint14
+    100020: joint14 1
+    100022: joint15
+    100024: joint15 1
+    100026: joint16
+    100028: joint16 1
+    100030: joint17
+    100032: joint17 1
+    100034: joint18
+    100036: joint19
+    100038: joint2
+    100040: joint20
+    100042: joint21
+    100044: joint3
+    100046: joint3 1
+    100048: joint4
+    100050: joint4 1
+    100052: joint5
+    100054: joint5 1
+    100056: joint6
+    100058: joint7
+    100060: joint8
+    100062: joint9
+    100064: pCylinder3
+    100066: pCylinder4
+    100068: pCylinder5
+    100070: pCylinder6
+    100072: pCylinder7
+    100074: pCylinder8
+    100076: Skin_ZSphere_3
+    400000: //RootNode
+    400002: joint1
+    400004: joint10
+    400006: joint11
+    400008: joint11 1
+    400010: joint12
+    400012: joint12 1
+    400014: joint13
+    400016: joint13 1
+    400018: joint14
+    400020: joint14 1
+    400022: joint15
+    400024: joint15 1
+    400026: joint16
+    400028: joint16 1
+    400030: joint17
+    400032: joint17 1
+    400034: joint18
+    400036: joint19
+    400038: joint2
+    400040: joint20
+    400042: joint21
+    400044: joint3
+    400046: joint3 1
+    400048: joint4
+    400050: joint4 1
+    400052: joint5
+    400054: joint5 1
+    400056: joint6
+    400058: joint7
+    400060: joint8
+    400062: joint9
+    400064: pCylinder3
+    400066: pCylinder4
+    400068: pCylinder5
+    400070: pCylinder6
+    400072: pCylinder7
+    400074: pCylinder8
+    400076: Skin_ZSphere_3
+    2300000: pCylinder3
+    2300002: pCylinder4
+    2300004: pCylinder5
+    2300006: pCylinder6
+    2300008: pCylinder7
+    2300010: pCylinder8
+    3300000: pCylinder3
+    3300002: pCylinder4
+    3300004: pCylinder5
+    3300006: pCylinder6
+    3300008: pCylinder7
+    3300010: pCylinder8
+    4300000: Skin_ZSphere_3
+    4300002: pCylinder3
+    4300004: pCylinder6
+    4300006: pCylinder4
+    4300008: pCylinder5
+    4300010: pCylinder7
+    4300012: pCylinder8
+    7400000: Take 001
+    7400002: BossIdle
+    7400004: BossRun
+    7400006: BossDegatR
+    7400008: BossDegatL
+    7400010: BossStanceCorne
+    7400012: BossCorne
+    7400014: BossStanceMain
+    7400016: BossMain
+    7400018: BossPoings
+    7400020: BossRunWeak
+    7400022: BossJumpArr
+    7400024: BossStanceMainL
+    7400026: BossMainL
+    9500000: //RootNode
+    13700000: Skin_ZSphere_3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'joint8' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 603
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: BossIdle
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossRun
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 17.8
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossDegatR
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossDegatL
+      takeName: Take 001
+      firstFrame: 130
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossStanceCorne
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 274
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossCorne
+      takeName: Take 001
+      firstFrame: 275
+      lastFrame: 308
+      wrapMode: 0
+      orientationOffsetY: -3.1
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossStanceMain
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossMain
+      takeName: Take 001
+      firstFrame: 356
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossPoings
+      takeName: Take 001
+      firstFrame: 410
+      lastFrame: 490
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossRunWeak
+      takeName: Take 001
+      firstFrame: 510
+      lastFrame: 560
+      wrapMode: 0
+      orientationOffsetY: 14.15
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossJumpArr
+      takeName: Take 001
+      firstFrame: 570
+      lastFrame: 603
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossStanceMainL
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 355
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: BossMainL
+      takeName: Take 001
+      firstFrame: 356
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint1/joint6
+        weight: 1
+      - path: joint1/joint6/joint3 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1
+        weight: 1
+      - path: joint1/joint6/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint7/joint8/joint9
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint20
+        weight: 1
+      - path: joint1/joint7/joint8/joint9/joint19/joint21
+        weight: 1
+      - path: joint1/joint7/joint8/joint10
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint14
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint15
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint16
+        weight: 1
+      - path: joint1/joint7/joint8/joint10/joint11/joint12/joint13/joint17
+        weight: 1
+      - path: joint1/joint7/joint8/joint18
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint14 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint15 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint16 1
+        weight: 1
+      - path: joint1/joint7/joint8/joint18/joint11 1/joint12 1/joint13 1/joint17 1
+        weight: 1
+      - path: joint1/joint7/joint8/pCylinder3
+        weight: 0
+      - path: joint1/joint7/joint8/pCylinder6
+        weight: 0
+      - path: joint1/joint7/pCylinder4
+        weight: 0
+      - path: joint1/joint7/pCylinder5
+        weight: 0
+      - path: joint1/joint7/pCylinder7
+        weight: 0
+      - path: joint1/joint7/pCylinder8
+        weight: 0
+      - path: Skin_ZSphere_3
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 150
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: joint1
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint6
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint2
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint3 1
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint3
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint4 1
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint4
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint7
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint9
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint19
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint10
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint18
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint11
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint11 1
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint12
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint12 1
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint13
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint13 1
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint5 1
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint5
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint20
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint21
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint14
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint15
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint16
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint17
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint14 1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint15 1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint16 1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint17 1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Boss+Anim(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Skin_ZSphere_3
+      position: {x: 0, y: 2.3084812, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 7.13217, y: 7.13217, z: 7.13217}
+      transformModified: 1
+    - name: joint1
+      position: {x: -0.0033461708, y: 13.39127, z: -1.2744784}
+      rotation: {x: 0.3406266, y: 0.9376021, z: 0.02384315, w: 0.06563021}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: joint2
+      position: {x: -3.064325, y: 4.3194615e-16, z: -6.661338e-16}
+      rotation: {x: 0.027855188, y: 0.108290404, z: 0.41123974, w: 0.9046432}
+      scale: {x: 0.9999999, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: joint3
+      position: {x: -4.285744, y: 0.28607157, z: -1.8519146}
+      rotation: {x: -0.015110752, y: -0.40124184, z: 0.0044133062, w: 0.91583693}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: joint4
+      position: {x: -1.9145333, y: -0.03772763, z: 3.731707}
+      rotation: {x: 0.0058544413, y: 0.32182178, z: -0.03129863, w: 0.9462647}
+      scale: {x: 0.9999999, y: 1, z: 1}
+      transformModified: 1
+    - name: joint5
+      position: {x: -2.7901652, y: -0.15760435, z: -1.2375431}
+      rotation: {x: -0.6757848, y: -0.737099, z: 0.0000000133184495, w: -0.000000006121174}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: joint6
+      position: {x: 0.5250804, y: -3.0045848, z: -0.7590174}
+      rotation: {x: 0.024701422, y: 0.09702488, z: 0.3824256, w: 0.918546}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+      transformModified: 1
+    - name: joint3 1
+      position: {x: -4.214429, y: -0.8437469, z: -1.7504518}
+      rotation: {x: 0.048402168, y: -0.38925165, z: 0.051171415, w: 0.9184345}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999964}
+      transformModified: 1
+    - name: joint4 1
+      position: {x: -1.9170775, y: 0.094576046, z: 3.731707}
+      rotation: {x: -0.041807283, y: 0.31994066, z: -0.04716735, w: 0.9453387}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: joint5 1
+      position: {x: -2.762457, y: -0.47624937, z: -1.2375431}
+      rotation: {x: -0.6757849, y: -0.737099, z: 0.0000000012334557, w: 0.000000003291557}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+      transformModified: 1
+    - name: joint7
+      position: {x: 2.6524062, y: 3.2893343, z: -0.6941885}
+      rotation: {x: 0.24158953, y: 0.11283043, z: -0.8884654, w: 0.37354133}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: pCylinder4
+      position: {x: -0.32153934, y: -1.4826268, z: 2.241621}
+      rotation: {x: 0.7433124, y: -0.22213358, z: -0.061930593, w: 0.6279394}
+      scale: {x: 0.30914465, y: 0.30914465, z: 0.30914465}
+      transformModified: 1
+    - name: pCylinder5
+      position: {x: 0.30475307, y: 0.040929515, z: -1.8653047}
+      rotation: {x: 0.5253944, y: 0.30894184, z: 0.19270524, w: 0.76901263}
+      scale: {x: 0.4525399, y: 0.4525399, z: 0.4525399}
+      transformModified: 1
+    - name: pCylinder7
+      position: {x: -2.907511, y: 0.6097071, z: 0.4684292}
+      rotation: {x: 0.56019974, y: -0.3142766, z: -0.20051557, w: 0.73972976}
+      scale: {x: 0.3203776, y: 0.3203776, z: 0.3203776}
+      transformModified: 1
+    - name: pCylinder8
+      position: {x: -1.6202989, y: -1.5402701, z: -0.25489968}
+      rotation: {x: 0.7466994, y: -0.27013874, z: -0.30680415, w: 0.52472496}
+      scale: {x: 0.27700633, y: 0.27700633, z: 0.27700633}
+      transformModified: 1
+    - name: joint8
+      position: {x: -3.785287, y: -0.324363, z: -2.3055952}
+      rotation: {x: 0.4375723, y: -0.48874727, z: 0.5623198, w: 0.50344115}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: pCylinder3
+      position: {x: 0.27204266, y: -0.3814006, z: 0.9193255}
+      rotation: {x: -0.2171675, y: -0.59353733, z: -0.42694664, w: 0.6467366}
+      scale: {x: 0.42153287, y: 0.42153287, z: 0.42153287}
+      transformModified: 1
+    - name: pCylinder6
+      position: {x: 1.5453054, y: -1.3426616, z: -1.7694948}
+      rotation: {x: 0.34080473, y: 0.7007988, z: -0.46773663, w: 0.4170799}
+      scale: {x: 0.38113853, y: 0.38113853, z: 0.38113853}
+      transformModified: 1
+    - name: joint9
+      position: {x: -3.1247342, y: -0.09526174, z: 9.192876e-16}
+      rotation: {x: -0.0001214966, y: 0.0019671319, z: -0.32561824, w: 0.94549924}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: joint19
+      position: {x: -2.2417998, y: 0.00056702865, z: -0.00401713}
+      rotation: {x: -0.21907575, y: -0.6742688, z: 0.21792537, w: 0.67072797}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: joint20
+      position: {x: -1.4494784, y: 0.016606834, z: 0.42742977}
+      rotation: {x: 0.62301123, y: 0.7822129, z: -0.00000007957346, w: -0.000000037196585}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: joint21
+      position: {x: 0.44315645, y: -1.474174, z: 0.42742977}
+      rotation: {x: 0.62301123, y: 0.7822129, z: -0.00000007957346, w: -0.000000037196585}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: joint10
+      position: {x: 0.1624813, y: 1.4660487, z: -3.8749776}
+      rotation: {x: -0.03132986, y: -0.7064123, z: -0.046675578, w: 0.7055647}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: joint11
+      position: {x: -2.8422456, y: -0.5010092, z: -0.31779575}
+      rotation: {x: 0.0001720282, y: 0.0045808284, z: 0.06415751, w: 0.99792933}
+      scale: {x: 1, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: joint12
+      position: {x: -6.3979983, y: 0.7106691, z: -0.53123486}
+      rotation: {x: -0.0019601877, y: -0.03349285, z: -0.056935646, w: 0.99781406}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: joint13
+      position: {x: -9.3096485, y: -0.5684846, z: 1.7206903e-15}
+      rotation: {x: 0.000000022560393, y: 0.66331875, z: -0.000000027077792, w: 0.7483371}
+      scale: {x: 0.99999964, y: 1, z: 0.99999964}
+      transformModified: 1
+    - name: joint14
+      position: {x: -3.7752743, y: -0.6218763, z: -2.5242198e-15}
+      rotation: {x: 0.51458925, y: -0.5145894, z: 0.484972, w: -0.48497194}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+      transformModified: 1
+    - name: joint15
+      position: {x: -2.2446194, y: -1.072462, z: -3.8936281}
+      rotation: {x: 0.00000003458421, y: 0.000000059604627, z: -0.00000007784122,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint16
+      position: {x: 0.035864722, y: -1.3834366, z: -4.2266574}
+      rotation: {x: 0.00000003458421, y: 0.000000059604627, z: -0.00000007784122,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint17
+      position: {x: 2.165973, y: -1.4863126, z: -3.2603595}
+      rotation: {x: 0.00000003458421, y: 0.000000059604627, z: -0.00000007784122,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: joint18
+      position: {x: 0.14475031, y: 1.3060642, z: 3.8148987}
+      rotation: {x: -0.03132986, y: -0.7064123, z: -0.046675578, w: 0.7055647}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: joint11 1
+      position: {x: 3.0158238, y: -0.27474785, z: -0.31779575}
+      rotation: {x: -0.00000002290028, y: -0.000000040961545, z: 0.0636362, w: 0.9979732}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: joint12 1
+      position: {x: 6.3264985, y: -0.5759231, z: -0.53123486}
+      rotation: {x: -0.0014469338, y: -0.05594798, z: -0.023405567, w: 0.99815834}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: joint13 1
+      position: {x: 8.820341, y: -1.1018392, z: -1.4298668}
+      rotation: {x: 0.0052579627, y: 0.6672807, z: -0.0070715975, w: 0.74475425}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+      transformModified: 1
+    - name: joint14 1
+      position: {x: -3.369247, y: -0.118410945, z: 2.0132196}
+      rotation: {x: -0.5145894, y: 0.51458925, z: -0.48497206, w: 0.48497203}
+      scale: {x: 0.9999996, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: joint15 1
+      position: {x: -0.45653674, y: -0.6518932, z: 4.9722815}
+      rotation: {x: -0.000000020191818, y: 0.00000005960463, z: 0.000000017552429,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: joint16 1
+      position: {x: 1.8317554, y: -1.047745, z: 4.6779675}
+      rotation: {x: -0.000000020191818, y: 0.00000005960463, z: 0.000000017552429,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: joint17 1
+      position: {x: 3.3293977, y: -1.175976, z: 2.5082889}
+      rotation: {x: -0.000000020191818, y: 0.00000005960463, z: 0.000000017552429,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
